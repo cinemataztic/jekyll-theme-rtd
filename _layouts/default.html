@@ -4,9 +4,9 @@ layout: base
 
 {% if page and page.buttons }
   {% for button in page.buttons %}
-    <a href={{button.link}} />
+    <a href="{{button.link}}" />
       <span>{{button.title}}</span>
-      <img src={{button.image}} />
+      <img src="{{button.image}}" />
     <a />
   {% endfor %}
 {% endif }
