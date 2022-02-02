@@ -2,16 +2,45 @@
 layout: base
 ---
 
+<style>
+  .category-button {
+    text-align: center;
+    display: inline-block;
+    margin: 10px 20px;
+    background: #f1f0f046;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .category-button:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    transform: scale(1.015);
+  }
+  .category-button a {
+    color: #404040;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  .category-button a:hover {
+    color: #404040;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+</style>
+
 {% if page and page.buttons %}
-  {% for button in page.buttons %}
-    <a href="{{button.link}}">
-      <div style="text-align: center">
-        <span>{{button.title}}</span>
-        <br />
-        <img src="{{button.image}}" />
-      </div>
-    </a>
-  {% endfor %}
+  <div style="display: flex; align-items: center; justify-content: center">
+    {% for button in page.buttons %}
+        <div class="category-button">
+          <a href="{{button.link}}">
+            <div style="text-align: center">
+              <span>{{button.title}}</span>
+              <br />
+              <img src="{{button.image}}" />
+            </div>
+          </a>
+        </div>
+    {% endfor %}
+  </div>
 {% endif %}
 
 {{ content }}
