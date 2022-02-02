@@ -4,11 +4,13 @@ layout: base
 
 {% if page and page.buttons %}
   {% for button in page.buttons %}
-    <a href="{{button.link}}" />
-      <span>{{button.title}}</span>
-      <br>
-      <img src="{{button.image}}" />
-    <a />
+    <a href="{{button.link}}">
+      <div style="text-align: center">
+        <span>{{button.title}}</span>
+        <br />
+        <img src="{{button.image}}" />
+      </div>
+    </a>
   {% endfor %}
 {% endif %}
 
