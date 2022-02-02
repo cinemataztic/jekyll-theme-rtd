@@ -27,6 +27,10 @@ layout: base
   }
 </style>
 
+{% if page and page.title %}<h1>{{page.title}}</h1>{% endif %}
+
+{% if page and page.description %}<p>{{page.description}}</p>{% endif %}
+
 {% if page and page.buttons %}
   <div style="display: flex; align-items: center; justify-content: center">
     {% for button in page.buttons %}
