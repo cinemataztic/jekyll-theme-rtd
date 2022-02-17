@@ -3527,7 +3527,7 @@ button[disabled] {
   background-color: #27ae60;
   text-decoration: none;
   font-weight: normal;
-  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Roboto", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
   box-shadow: 0px 1px 2px -1px rgba(255, 255, 255, 0.5) inset,
     0px -2px 0px 0px rgba(0, 0, 0, 0.1) inset;
   outline-none: false;
@@ -3998,7 +3998,7 @@ input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
-  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Roboto", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
   *overflow: visible;
 }
 input[type="text"],
@@ -4020,7 +4020,7 @@ input[type="color"] {
   display: inline-block;
   border: 1px solid #ccc;
   font-size: 80%;
-  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Roboto", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
   box-shadow: inset 0 1px 3px #ddd;
   border-radius: 0;
   -webkit-transition: border 0.3s linear;
@@ -4120,7 +4120,7 @@ textarea {
   overflow: auto;
   vertical-align: top;
   width: 100%;
-  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Roboto", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 }
 select,
 textarea {
@@ -4571,7 +4571,7 @@ html {
   overflow-x: hidden;
 }
 body {
-  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Roboto", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   color: #404040;
   min-height: 100%;
@@ -5339,7 +5339,7 @@ footer span.commit .rst-content tt,
   width: 300px;
   color: #fcfcfc;
   background: #1f1d1d;
-  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Roboto", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
   z-index: 400;
 }
 .rst-versions a {
@@ -5981,7 +5981,7 @@ span[id*="MathJax-Span"] {
   text-align: center;
 }
 @font-face {
-  font-family: "Lato";
+  font-family: "Roboto";
   src: url("../fonts/Lato/lato-regular.eot");
   src: url("../fonts/Lato/lato-regular.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Lato/lato-regular.woff2") format("woff2"),
@@ -5991,7 +5991,7 @@ span[id*="MathJax-Span"] {
   font-style: normal;
 }
 @font-face {
-  font-family: "Lato";
+  font-family: "Roboto";
   src: url("../fonts/Lato/lato-bold.eot");
   src: url("../fonts/Lato/lato-bold.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Lato/lato-bold.woff2") format("woff2"),
@@ -6001,7 +6001,7 @@ span[id*="MathJax-Span"] {
   font-style: normal;
 }
 @font-face {
-  font-family: "Lato";
+  font-family: "Roboto";
   src: url("../fonts/Lato/lato-bolditalic.eot");
   src: url("../fonts/Lato/lato-bolditalic.eot?#iefix")
       format("embedded-opentype"),
@@ -6012,7 +6012,7 @@ span[id*="MathJax-Span"] {
   font-style: italic;
 }
 @font-face {
-  font-family: "Lato";
+  font-family: "Roboto";
   src: url("../fonts/Lato/lato-italic.eot");
   src: url("../fonts/Lato/lato-italic.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Lato/lato-italic.woff2") format("woff2"),
