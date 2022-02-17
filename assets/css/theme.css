@@ -3413,7 +3413,7 @@ a .icon {
 .rst-content .wy-alert-neutral.seealso .admonition-title,
 .rst-content .wy-alert-neutral.admonition-todo .admonition-title,
 .rst-content .wy-alert-neutral.admonition .admonition-title {
-  color: #404040;
+  color: #f4f4f4;
   background: #e1e4e5;
 }
 .wy-alert.wy-alert-neutral a,
@@ -3604,14 +3604,14 @@ button[disabled] {
 }
 .btn-neutral {
   background-color: #f3f6f6 !important;
-  color: #404040 !important;
+  color: #f4f4f4 !important;
 }
 .btn-neutral:hover {
   background-color: #e5ebeb !important;
-  color: #404040;
+  color: #f4f4f4;
 }
 .btn-neutral:visited {
-  color: #404040 !important;
+  color: #f4f4f4 !important;
 }
 .btn-success {
   background-color: #27ae60 !important;
@@ -3686,7 +3686,7 @@ button[disabled] {
   float: left;
   top: 100%;
   min-width: 100%;
-  background: #fcfcfc;
+  background: #343a40;
   z-index: 100;
   border: solid 1px #cfd7dd;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
@@ -3695,7 +3695,7 @@ button[disabled] {
 .wy-dropdown-menu > dd > a {
   display: block;
   clear: both;
-  color: #404040;
+  color: #f4f4f4;
   white-space: nowrap;
   font-size: 90%;
   padding: 0 12px;
@@ -3734,7 +3734,7 @@ button[disabled] {
   right: 0;
 }
 .wy-dropdown.wy-dropdown-bubble .wy-dropdown-menu {
-  background: #fcfcfc;
+  background: #343a40;
   margin-top: 2px;
 }
 .wy-dropdown.wy-dropdown-bubble .wy-dropdown-menu a {
@@ -4159,7 +4159,7 @@ input[type="checkbox"][disabled] {
 .wy-checkbox,
 .wy-radio {
   margin: 6px 0;
-  color: #404040;
+  color: #f4f4f4;
   display: block;
 }
 .wy-checkbox input,
@@ -4573,7 +4573,7 @@ html {
 body {
   font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
-  color: #404040;
+  color: #f4f4f4;
   min-height: 100%;
   overflow-x: hidden;
   background: #edf0f2;
@@ -4625,7 +4625,7 @@ a.wy-text-danger:hover {
   color: #ed7669 !important;
 }
 .wy-text-neutral {
-  color: #404040 !important;
+  color: #f4f4f4 !important;
 }
 a.wy-text-neutral:hover {
   color: #595959 !important;
@@ -4805,7 +4805,7 @@ article ol li ul li {
 .wy-breadcrumbs li code.literal,
 .wy-breadcrumbs li .rst-content tt.literal,
 .rst-content .wy-breadcrumbs li tt.literal {
-  color: #404040;
+  color: #f4f4f4;
 }
 .wy-breadcrumbs-extra {
   margin-bottom: 0;
@@ -4852,10 +4852,10 @@ article ol li ul li {
   background: rgba(255, 255, 255, 0.1);
 }
 .wy-menu-horiz li.divide-left {
-  border-left: solid 1px #404040;
+  border-left: solid 1px #f4f4f4;
 }
 .wy-menu-horiz li.divide-right {
-  border-right: solid 1px #404040;
+  border-right: solid 1px #f4f4f4;
 }
 .wy-menu-horiz a {
   height: 32px;
@@ -4883,13 +4883,13 @@ article ol li ul li {
   margin-bottom: 0;
 }
 .wy-menu-vertical li.divide-top {
-  border-top: solid 1px #404040;
+  border-top: solid 1px #f4f4f4;
 }
 .wy-menu-vertical li.divide-bottom {
-  border-bottom: solid 1px #404040;
+  border-bottom: solid 1px #f4f4f4;
 }
 .wy-menu-vertical li.current {
-  background: #e3e3e3;
+  background: #6c757d;
 }
 .wy-menu-vertical li.current a {
   color: gray;
@@ -4918,17 +4918,17 @@ article ol li ul li {
 }
 .wy-menu-vertical li.on a,
 .wy-menu-vertical li.current > a {
-  color: #404040;
+  color: #f4f4f4;
   padding: 0.4045em 1.618em;
   font-weight: bold;
   position: relative;
-  background: #fcfcfc;
+  background: #343a40;
   border: none;
   padding-left: 1.618em -4px;
 }
 .wy-menu-vertical li.on a:hover,
 .wy-menu-vertical li.current > a:hover {
-  background: #fcfcfc;
+  background: #343a40;
 }
 .wy-menu-vertical li.on a:hover span.toctree-expand,
 .wy-menu-vertical li.current > a:hover span.toctree-expand {
@@ -4948,7 +4948,7 @@ article ol li ul li {
 .wy-menu-vertical li.toctree-l2 a,
 .wy-menu-vertical li.toctree-l3 a,
 .wy-menu-vertical li.toctree-l4 a {
-  color: #404040;
+  color: #f4f4f4;
 }
 .wy-menu-vertical li.toctree-l1.current li.toctree-l2 > ul,
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > ul {
@@ -5040,7 +5040,7 @@ article ol li ul li {
   text-align: center;
   padding: 0.809em;
   display: block;
-  color: #fcfcfc;
+  color: #343a40;
   margin-bottom: 0.809em;
 }
 .wy-side-nav-search input[type="text"] {
@@ -5060,7 +5060,7 @@ article ol li ul li {
 }
 .wy-side-nav-search > a,
 .wy-side-nav-search .wy-dropdown > a {
-  color: #fcfcfc;
+  color: #343a40;
   font-size: 100%;
   font-weight: bold;
   display: inline-block;
@@ -5126,7 +5126,7 @@ article ol li ul li {
   opacity: 0;
 }
 .wy-body-for-nav {
-  background: #fcfcfc;
+  background: #343a40;
 }
 .wy-grid-for-nav {
   position: absolute;
@@ -5143,8 +5143,8 @@ article ol li ul li {
   overflow-x: hidden;
   overflow-y: hidden;
   min-height: 100%;
-  color: #9b9b9b;
-  background: #343131;
+  color: #f4f4f4;
+  background: #272727;
   z-index: 200;
 }
 .wy-side-scroll {
@@ -5193,7 +5193,7 @@ article ol li ul li {
 }
 .wy-nav-content-wrap {
   margin-left: 300px;
-  background: #fcfcfc;
+  background: #343a40;
   min-height: 100%;
 }
 .wy-nav-content {
@@ -5277,7 +5277,7 @@ footer span.commit .rst-content tt,
 }
 @media screen and (max-width: 768px) {
   .wy-body-for-nav {
-    background: #fcfcfc;
+    background: #343a40;
   }
   .wy-nav-top {
     display: block;
@@ -5319,7 +5319,7 @@ footer span.commit .rst-content tt,
   }
   .wy-nav-content {
     margin: 0;
-    background: #fcfcfc;
+    background: #343a40;
   }
 }
 @media print {
@@ -5337,7 +5337,7 @@ footer span.commit .rst-content tt,
   bottom: 0;
   left: 0;
   width: 300px;
-  color: #fcfcfc;
+  color: #343a40;
   background: #1f1d1d;
   font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
   z-index: 400;
@@ -5395,7 +5395,7 @@ footer span.commit .rst-content tt,
 .rst-versions .rst-current-version .rst-content code.download span:first-child,
 .rst-content code.download .rst-versions .rst-current-version span:first-child,
 .rst-versions .rst-current-version .icon {
-  color: #fcfcfc;
+  color: #343a40;
 }
 .rst-versions .rst-current-version .fa-book,
 .rst-versions .rst-current-version .icon-book {
@@ -5440,7 +5440,7 @@ footer span.commit .rst-content tt,
 .rst-versions .rst-other-versions dd a {
   display: inline-block;
   padding: 6px;
-  color: #fcfcfc;
+  color: #343a40;
 }
 .rst-versions.rst-badge {
   width: auto;
@@ -5635,7 +5635,7 @@ footer span.commit .rst-content tt,
   margin-bottom: 12px;
 }
 .rst-content .toc-backref {
-  color: #404040;
+  color: #f4f4f4;
 }
 .rst-content .align-right {
   float: right;
@@ -5827,7 +5827,7 @@ a .rst-content tt,
 a .rst-content tt,
 a .rst-content code {
   font-weight: bold;
-  color: #404040;
+  color: #f4f4f4;
 }
 .rst-content pre,
 .rst-content kbd,
@@ -5875,7 +5875,7 @@ a .rst-content code {
   color: #6ab0de;
 }
 .rst-content dl:not(.docutils) dt .headerlink {
-  color: #404040;
+  color: #f4f4f4;
   font-size: 100% !important;
 }
 .rst-content dl:not(.docutils) dl dt {
@@ -5886,7 +5886,7 @@ a .rst-content code {
   color: #555;
 }
 .rst-content dl:not(.docutils) dl dt .headerlink {
-  color: #404040;
+  color: #f4f4f4;
   font-size: 100% !important;
 }
 .rst-content dl:not(.docutils) dt:first-child {
@@ -5975,7 +5975,7 @@ a .rst-content code {
   }
 }
 span[id*="MathJax-Span"] {
-  color: #404040;
+  color: #f4f4f4;
 }
 .math {
   text-align: center;
