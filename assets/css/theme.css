@@ -3522,7 +3522,7 @@ button[disabled] {
   cursor: pointer;
   font-size: 100%;
   padding: 6px 12px 8px 12px;
-  color: #fff;
+  color: #000;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #27ae60;
   text-decoration: none;
@@ -3561,7 +3561,7 @@ button[disabled] {
   padding: 8px 12px 6px 12px;
 }
 .btn:visited {
-  color: #fff;
+  color: #000;
 }
 .btn:disabled {
   background-image: none;
@@ -3611,7 +3611,7 @@ button[disabled] {
   color: #f4f4f4;
 }
 .btn-neutral:visited {
-  color: #f4f4f4 !important;
+  color: #000 !important;
 }
 .btn-success {
   background-color: #27ae60 !important;
