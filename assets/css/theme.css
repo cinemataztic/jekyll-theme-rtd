@@ -4640,13 +4640,14 @@ h6,
 legend {
   margin-top: 0;
   font-weight: 700;
-  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+  font-family: "Roboto", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
 }
 p {
   line-height: 24px;
   margin: 0;
-  font-size: 16px;
-  margin-bottom: 24px;
+  font-size: 24px;
+  margin-bottom: 0;
+  margin-top: 24px !important;
 }
 h1 {
   font-size: 175%;
@@ -4876,28 +4877,30 @@ article ol li ul li {
   display: block;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 80%;
+  font-size: 90%;
   white-space: nowrap;
+  color: #3ac1cb;
 }
 .wy-menu-vertical ul {
   margin-bottom: 0;
 }
+/*
 .wy-menu-vertical li.divide-top {
   border-top: solid 1px #f4f4f4;
 }
 .wy-menu-vertical li.divide-bottom {
   border-bottom: solid 1px #f4f4f4;
 }
+*/
 .wy-menu-vertical li.current {
-  background: #6c757d;
+  background: #272727;
 }
 .wy-menu-vertical li.current a {
   color: gray;
-  border-right: solid 1px #c9c9c9;
   padding: 0.4045em 2.427em;
 }
 .wy-menu-vertical li.current a:hover {
-  background: #d6d6d6;
+  background: #272727;
 }
 .wy-menu-vertical li code,
 .wy-menu-vertical li .rst-content tt,
@@ -4914,25 +4917,25 @@ article ol li ul li {
   margin-left: -1.2em;
   font-size: 0.8em;
   line-height: 1.6em;
-  color: #4d4d4d;
+  color: #272727;
 }
 .wy-menu-vertical li.on a,
 .wy-menu-vertical li.current > a {
-  color: #f4f4f4;
+  color: #3ac1cb;;
   padding: 0.4045em 1.618em;
   font-weight: bold;
   position: relative;
-  background: #343a40;
+  background: #272727;
   border: none;
   padding-left: 1.618em -4px;
 }
 .wy-menu-vertical li.on a:hover,
 .wy-menu-vertical li.current > a:hover {
-  background: #343a40;
+  background: #4e4a4a;
 }
 .wy-menu-vertical li.on a:hover span.toctree-expand,
 .wy-menu-vertical li.current > a:hover span.toctree-expand {
-  color: gray;
+  color: #4e4a4a;
 }
 .wy-menu-vertical li.on a span.toctree-expand,
 .wy-menu-vertical li.current > a span.toctree-expand {
@@ -4941,10 +4944,10 @@ article ol li ul li {
   line-height: 1.6em;
   color: #333;
 }
-.wy-menu-vertical li.toctree-l1.current > a {
+/*.wy-menu-vertical li.toctree-l1.current > a {
   border-bottom: solid 1px #c9c9c9;
   border-top: solid 1px #c9c9c9;
-}
+}*/
 .wy-menu-vertical li.toctree-l2 a,
 .wy-menu-vertical li.toctree-l3 a,
 .wy-menu-vertical li.toctree-l4 a {
@@ -4959,12 +4962,13 @@ article ol li ul li {
   display: block;
 }
 .wy-menu-vertical li.toctree-l2.current > a {
-  background: #c9c9c9;
+  color: #3ac1cb;
+  background: #272727;
   padding: 0.4045em 2.427em;
 }
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {
   display: block;
-  background: #c9c9c9;
+  background: #272727;
   padding: 0.4045em 4.045em;
 }
 .wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {
@@ -4977,12 +4981,14 @@ article ol li ul li {
   font-size: 0.9em;
 }
 .wy-menu-vertical li.toctree-l3.current > a {
-  background: #bdbdbd;
+  color: #3ac1cb;
+  background: #272727;
   padding: 0.4045em 4.045em;
 }
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a {
+  color: #3ac1cb;
   display: block;
-  background: #bdbdbd;
+  background: #272727;
   padding: 0.4045em 5.663em;
 }
 .wy-menu-vertical li.toctree-l3 a:hover span.toctree-expand {
@@ -4995,6 +5001,7 @@ article ol li ul li {
   font-size: 0.9em;
 }
 .wy-menu-vertical li.current ul {
+  color: #3ac1cb;
   display: block;
 }
 .wy-menu-vertical li ul {
@@ -5069,7 +5076,7 @@ article ol li ul li {
 }
 .wy-side-nav-search > a:hover,
 .wy-side-nav-search .wy-dropdown > a:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: #4e4a4a;
 }
 .wy-side-nav-search > a img.logo,
 .wy-side-nav-search .wy-dropdown > a img.logo {
@@ -5714,7 +5721,7 @@ footer span.commit .rst-content tt,
 }
 .rst-content .sidebar .sidebar-title {
   display: block;
-  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+  font-family: "Roboto", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
   font-weight: bold;
   background: #e1e4e5;
   padding: 6px 12px;
@@ -6022,24 +6029,24 @@ span[id*="MathJax-Span"] {
   font-style: italic;
 }
 @font-face {
-  font-family: "Roboto Slab";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/RobotoSlab/roboto-slab.eot");
-  src: url("../fonts/RobotoSlab/roboto-slab-v7-regular.eot?#iefix")
+  src: url("../fonts/RobotoSlab/roboto.eot");
+  src: url("../fonts/RobotoSlab/roboto-v7-regular.eot?#iefix")
       format("embedded-opentype"),
-    url("../fonts/RobotoSlab/roboto-slab-v7-regular.woff2") format("woff2"),
-    url("../fonts/RobotoSlab/roboto-slab-v7-regular.woff") format("woff"),
-    url("../fonts/RobotoSlab/roboto-slab-v7-regular.ttf") format("truetype");
+    url("../fonts/RobotoSlab/roboto-v7-regular.woff2") format("woff2"),
+    url("../fonts/RobotoSlab/roboto-v7-regular.woff") format("woff"),
+    url("../fonts/RobotoSlab/roboto-v7-regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Roboto Slab";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/RobotoSlab/roboto-slab-v7-bold.eot");
-  src: url("../fonts/RobotoSlab/roboto-slab-v7-bold.eot?#iefix")
+  src: url("../fonts/RobotoSlab/roboto-v7-bold.eot");
+  src: url("../fonts/RobotoSlab/roboto-v7-bold.eot?#iefix")
       format("embedded-opentype"),
-    url("../fonts/RobotoSlab/roboto-slab-v7-bold.woff2") format("woff2"),
-    url("../fonts/RobotoSlab/roboto-slab-v7-bold.woff") format("woff"),
-    url("../fonts/RobotoSlab/roboto-slab-v7-bold.ttf") format("truetype");
+    url("../fonts/RobotoSlab/roboto-v7-bold.woff2") format("woff2"),
+    url("../fonts/RobotoSlab/roboto-v7-bold.woff") format("woff"),
+    url("../fonts/RobotoSlab/roboto-v7-bold.ttf") format("truetype");
 }
