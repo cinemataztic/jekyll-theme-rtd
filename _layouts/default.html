@@ -30,23 +30,17 @@ layout: base
   }
 </style>
 
-{% if page and page.title %}<h1>{{page.title}}</h1>{% endif %}
-
-{% if page and page.description %}<p>{{page.description}}</p>{% endif %}
-
 {% if page and page.buttons %}
-  <div style="display: flex; align-items: center; justify-content: center">
-    {% for button in page.buttons %}
-        <div class="category-button">
-          <a href="{{button.link}}">
-            <div style="text-align: center">
-              <div>{{button.title}}</div>
-              <img src="{{button.image}}" />
-            </div>
-          </a>
-        </div>
-    {% endfor %}
+<div style="display: flex; align-items: center; justify-content: center">
+  {% for button in page.buttons %}
+  <div class="category-button">
+    <a href="{{button.link}}">
+      <div style="text-align: center">
+        <div>{{button.title}}</div>
+        <img src="{{button.image}}" />
+      </div>
+    </a>
   </div>
-{% endif %}
-
-{{ content }}
+  {% endfor %}
+</div>
+{% endif %} {{ content }}
