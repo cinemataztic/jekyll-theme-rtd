@@ -5315,11 +5315,11 @@ footer span.commit .rst-content tt,
 }
 @media screen and (min-width: 1100px) {
   .wy-nav-content-wrap {
-    background: rgba(0, 0, 0, 0.05);
+    background: #272727;
   }
   .wy-nav-content {
     margin: 0;
-    background: #343a40;
+    background: #434446;
   }
 }
 @media print {
