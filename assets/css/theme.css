@@ -3650,12 +3650,14 @@ button[disabled] {
 }
 .btn-link:active {
   background-color: transparent !important;
-  color: #409ad5 !important;
+  color: #f869b9 !important;
   box-shadow: none;
 }
+/*
 .btn-link:visited {
   color: #9b59b6;
 }
+*/
 .wy-btn-group .btn,
 .wy-control .btn {
   vertical-align: middle;
@@ -4556,16 +4558,18 @@ input[type="checkbox"][disabled] {
   white-space: nowrap;
 }
 a {
-  color: #2980b9;
+  color: #f869b9;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover {
-  color: #3091d1;
+  color: rgb(255, 169, 25);
 }
-a:visited {
+/*
+a: {
   color: #9b59b6;
 }
+*/
 html {
   height: 100%;
   overflow-x: hidden;
