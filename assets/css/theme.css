@@ -4640,7 +4640,7 @@ h6,
 legend {
   margin-bottom: 0.1em;
   font-weight: 700;
-  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+  font-family: "Roboto", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
 }
 p {
   line-height: 24px;
@@ -6021,6 +6021,7 @@ span[id*="MathJax-Span"] {
   font-weight: 400;
   font-style: italic;
 }
+/*
 @font-face {
   font-family: "Roboto Slab";
   font-style: normal;
@@ -6043,3 +6044,4 @@ span[id*="MathJax-Span"] {
     url("../fonts/RobotoSlab/roboto-slab-v7-bold.woff") format("woff"),
     url("../fonts/RobotoSlab/roboto-slab-v7-bold.ttf") format("truetype");
 }
+*/
