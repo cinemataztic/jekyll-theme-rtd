@@ -5156,8 +5156,8 @@ article ol li ul li {
 }
 .wy-nav-top {
   display: none;
-  background: #2980b9;
-  color: #fff;
+  background: #3ac1c8;
+  color: #000;
   padding: 0.4045em 0.809em;
   position: relative;
   line-height: 50px;
@@ -5174,7 +5174,7 @@ article ol li ul li {
   clear: both;
 }
 .wy-nav-top a {
-  color: #fff;
+  color: #000;
   font-weight: bold;
 }
 .wy-nav-top img {
@@ -5983,7 +5983,8 @@ span[id*="MathJax-Span"] {
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto/roboto-regular.eot");
-  src: url("../fonts/Roboto/roboto-regular.eot?#iefix") format("embedded-opentype"),
+  src: url("../fonts/Roboto/roboto-regular.eot?#iefix")
+      format("embedded-opentype"),
     url("../fonts/Roboto/roboto-regular.woff2") format("woff2"),
     url("../fonts/Roboto/roboto-regular.woff") format("woff"),
     url("../fonts/Roboto/roboto-regular.ttf") format("truetype");
@@ -6014,7 +6015,8 @@ span[id*="MathJax-Span"] {
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto/roboto-italic.eot");
-  src: url("../fonts/Roboto/roboto-italic.eot?#iefix") format("embedded-opentype"),
+  src: url("../fonts/Roboto/roboto-italic.eot?#iefix")
+      format("embedded-opentype"),
     url("../fonts/Roboto/roboto-italic.woff2") format("woff2"),
     url("../fonts/Roboto/roboto-italic.woff") format("woff"),
     url("../fonts/Roboto/roboto-italic.ttf") format("truetype");
