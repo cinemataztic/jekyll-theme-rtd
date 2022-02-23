@@ -20,7 +20,7 @@
       {%- if site.edit_on_github != false and page and page.name !=
       "search.html" %}
       <a
-        href="{{ site.repo_url | url }}/blob/master/{%- if site.github_docs_folder %}docs/{% endif %}{{ page.path }}"
+        href="{{ site.repo_url | url }}/blob/{%- if site.github_main_branch %}{{ site.github_main_branch }}{%- else %}master{% endif %}/{%- if site.github_docs_folder %}docs/{% endif %}{{ page.path }}"
         class="icon icon-github"
         target="_blank"
       >
