@@ -2,41 +2,13 @@
 layout: base
 ---
 
-<style>
-  .category-button {
-    text-align: center;
-    display: inline-block;
-    margin: 10px 15px;
-    background: #292a2c;
-    padding: 20px 25px 10px 25px;
-    border-radius: 10px;
-    width: 25%;
-    height: 20%;
-    overflow: hidden;
-  }
-  .category-button:hover {
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
-    transform: scale(1.015);
-  }
-  .category-button a {
-    color: #f4f4f4;
-    text-decoration: none;
-    font-size: 1.5em;
-  }
-  .category-button a:hover {
-    color: #f4f4f4;
-    text-decoration: none;
-    font-size: 1.5em;
-  }
-</style>
-
 {% if page and page.buttons %}
-<div style="display: flex; align-items: center; justify-content: center">
+<div class="cateory-buttons-container">
   {% for button in page.buttons %}
   <div class="category-button">
     <a href="{{button.link}}">
       <div style="text-align: center">
-        <div>{{button.title}}</div>
+        <div class="category-button-title">{{button.title}}</div>
         <img src="{{button.image}}" />
       </div>
     </a>
