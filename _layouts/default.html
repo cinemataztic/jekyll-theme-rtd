@@ -3,16 +3,21 @@ layout: base
 ---
 
 <style>
+  .cateory-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
   .category-button {
     text-align: center;
     display: inline-block;
     margin: 10px 15px;
     background: #292a2c;
-    padding: 20px 25px 10px 25px;
     border-radius: 10px;
-    width: 25%;
-    height: 20%;
     overflow: hidden;
+    padding: 0 25px;
+    max-width: 135px;
   }
   .category-button:hover {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
@@ -28,15 +33,18 @@ layout: base
     text-decoration: none;
     font-size: 1.5em;
   }
+  .category-button-title {
+    margin-top: 20px;
+  }
 </style>
 
 {% if page and page.buttons %}
-<div style="display: flex; align-items: center; justify-content: center">
+<div class="cateory-buttons-container">
   {% for button in page.buttons %}
   <div class="category-button">
     <a href="{{button.link}}">
       <div style="text-align: center">
-        <div>{{button.title}}</div>
+        <div class="category-button-title">{{button.title}}</div>
         <img src="{{button.image}}" />
       </div>
     </a>
