@@ -5217,6 +5217,7 @@ article ol li ul li {
 .wy-nav-content {
   padding: 1.618em 3.236em;
   height: 100%;
+  min-height: 100vh;
   max-width: 800px;
   margin: auto;
 }
