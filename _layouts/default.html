@@ -2,42 +2,6 @@
 layout: base
 ---
 
-<style>
-  .cateory-buttons-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  .category-button {
-    text-align: center;
-    display: inline-block;
-    margin: 10px 15px;
-    background: #292a2c;
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 0 25px;
-    max-width: 135px;
-  }
-  .category-button:hover {
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
-    transform: scale(1.015);
-  }
-  .category-button a {
-    color: #f4f4f4;
-    text-decoration: none;
-    font-size: 1.5em;
-  }
-  .category-button a:hover {
-    color: #f4f4f4;
-    text-decoration: none;
-    font-size: 1.5em;
-  }
-  .category-button-title {
-    margin-top: 20px;
-  }
-</style>
-
 {% if page and page.buttons %}
 <div class="cateory-buttons-container">
   {% for button in page.buttons %}
