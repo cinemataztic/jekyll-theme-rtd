@@ -8,20 +8,19 @@ nav_order: 1
 
 The docs should have an index page.
 
-## Generic _config.yml configuration
-
+## Generic \_config.yml configuration
 
 ```yml
 title: Read The Docs Jekyll Theme
 description: Port of the Read the Docs theme to Jekyll to use with GitHub Pages.
 ```
 
-## Theme Specific Configuration 
+## Theme Specific Configuration
 
 ```yml
 # Specific to this theme
 site_author: Carlos Pereira Atencio
-repo_url: 'https://github.com/carlosperate/jekyll-theme-rtd'
+repo_url: "https://github.com/cinemataztic/jekyll-theme-rtd"
 edit_on_github: true
 github_docs_folder: true
 logo: 'https://your.url/image.png'
