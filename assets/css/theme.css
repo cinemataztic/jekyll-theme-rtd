@@ -4645,11 +4645,19 @@ legend {
   font-weight: 700;
   font-family: "Roboto", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
 }
+
+h1:not(:first-child),
+h2:not(:first-child),
+h3:not(:first-child),
+h4:not(:first-child),
+h5:not(:first-child) {
+  margin-top: 3rem;
+}
 p {
   line-height: 24px;
   margin: 0;
-  font-size: 24px;
-  margin-bottom: 0;
+  font-size: 16px;
+  margin-bottom: 24px;
   margin-top: 24px !important;
 }
 h1 {
