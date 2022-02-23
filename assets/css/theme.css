@@ -4925,7 +4925,7 @@ article ol li ul li {
 }
 .wy-menu-vertical li.on a,
 .wy-menu-vertical li.current > a {
-  color: #3ac1cb;;
+  color: #3ac1cb;
   padding: 0.4045em 1.618em;
   font-weight: bold;
   position: relative;
@@ -5204,7 +5204,7 @@ article ol li ul li {
 }
 .wy-nav-content-wrap {
   margin-left: 300px;
-  background: #343a40;
+  background: #1e1e1e;
   min-height: 100%;
 }
 .wy-nav-content {
@@ -5326,11 +5326,11 @@ footer span.commit .rst-content tt,
 }
 @media screen and (min-width: 1100px) {
   .wy-nav-content-wrap {
-    background: rgb(39, 39, 39);
+    background: #272727;
   }
   .wy-nav-content {
     margin: 0;
-    background: rgb(30 30 30);
+    background: #1e1e1e;
   }
 }
 @media print {
